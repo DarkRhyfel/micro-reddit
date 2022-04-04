@@ -1,24 +1,11 @@
-# README
+# Rails Micro Reddit
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Description
 
-Things you may want to cover:
+A mini project to simulate a reddit like database schema to practice rails active record.
 
-* Ruby version
+## Objectives
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Generate 3 models: Users, Posts, Comments.
+- A user can create posts and comment on those posts.
+- A comment can't be child of another comment.
